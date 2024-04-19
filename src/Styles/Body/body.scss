@@ -1,0 +1,15 @@
+.mainContainer{
+ .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    .left{
+    border: 1px solid green;
+
+    }
+    .right{
+        border: 1px solid red;
+    }
+ }
+}
