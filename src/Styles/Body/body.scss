@@ -6,10 +6,16 @@
     height:300px;
     .left{
     border: 1px solid green;
+    & > img{
+        height: 100%;
+    }
 
     }
     .right{
         border: 1px solid red;
+        &>img{
+            height:100%;
+        }
     }
  }
 }
