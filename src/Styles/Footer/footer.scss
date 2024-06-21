@@ -5,9 +5,13 @@
   background-color: #fed54e;
   .footer-info-container {
     display: flex;
+    padding-inline: 60px;
+    
     & > div {
       flex: 1;
-      border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
     }
   }
   .footer-right-info {
@@ -33,8 +37,7 @@
         height: 30px;
         width: 30px;
       }
-      & > p {
-      }
+    
     }
   }
 }
